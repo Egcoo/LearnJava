@@ -1,0 +1,31 @@
+
+
+
+
+
+day8:奶牛贝西写错二进制
+1.满足恰好写错一位的情况下有一个唯一确定的n
+2.数据范围一定小于 2的30次方，二进制枚举的结果最多就只有30种，同理3进制（0，1，2）会有60种情况
+3.2进制30种和三进制60种情况，只会有一种交集，只需要反推即可
+4.X进制转换10进制 ----> 秦九韶算法
+5.尽量使用BufferedReader 这样的读取方式，性能上比Scanner 快10倍左右
+import java.io.*;
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));//创建BufferedReader对象，从键盘读入
+        String str = br.readLine();  //读取一行字符串
+        int a = Integer.parseInt(str);  //将字符转化为整型
+        System.out.println(a);
+        String[] temp=br.readLine().split(" ");//读取一行数据并用空格分隔，存入字符串数组
+    }
+｝
+6.BufferReader对象通过readLine()方法来读取数据，readLine()是按Enter回车来读取一行数据的，
+    只要在回车键之前的的所有字符都会被readLine(),不包括最后按下的Enter返回字符。
+
+7.BufferReader读取的数据都以字符串的形式存储，如果需要其他形式的数据，需要进行强制转换。
+    BufferedReader是支持同步的，而Scanner不支持。如果我们处理多线程程序，BufferedReader应当使用。
+    BufferedReader相对于Scanner有足够大的缓冲区内存。
+    Scanner有很少的缓冲区(1KB字符缓冲)相对于BufferedReader(8KB字节缓冲)，但是这是绰绰有余的。
+    BufferedReader相对于Scanner来说要快一点，因为Scanner对输入数据进行类解析，而BufferedReader只是简单地读取字符序列。
+
+

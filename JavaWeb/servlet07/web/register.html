@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user register</title>
+</head>
+<body>
+<h1>user register</h1>
+<!--
+    action 后面提供的是请求路径：/servlet07/testRequest
+    注意：前端浏览器发送请求的时候，请求路径以“/”开始，带“项目名”
+-->
+<form action="/servlet07/testRequest" method="post"><br>
+    username:<input type="text" name="username"><br>
+    password:<input type="password" name="password"><br>
+    interest:
+    抽烟<input type="checkbox" name="aihao" value="s">
+    喝酒<input type="checkbox" name="aihao" value="d">
+    烫头<input type="checkbox" name="aihao" value="tt">
+    <br>
+    <input type="submit" value="register">
+</form>
+</body>
+</html>

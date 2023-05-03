@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>列表页面</title>
+</head>
+<body>
+<script type='text/javascript'>
+    function del(dno) {
+        //弹出确认框，确定true，取消false
+        var ok = window.confirm("删除不可恢复");
+        if (ok) {
+            //发送请求执行删除操作
+            //JS代码如何发送请求给服务器。
+            //document.location.href = "请求路径"
+            //window.location.href = "请求路径"
+            //document.location = "请求路径"
+            //window.location = "请求路径"
+            document.location.href = "/servlet09/dept/delete?deptno=" + dno;
+        }
+    }
+</script>
+<h1 align='center'>部门列表</h1>
+<hr>
+<table border='1px' align='center' width='50%'>
+    <tr>
+        <th>序号</th>
+        <th>部门编号</th>
+        <th>部门名称</th>
+        <th>操作</th>
+    </tr>
+    <!--以上是固定的，只有中间的一部分是动态的·-->
+    <tr>
+        <td>1</td>
+        <td>10</td>
+        <td>销售部</td>
+        <td>
+            <!--href='javascript:void(0)'   表示：仍然保留超链接的样式，但点击以后不进行跳转-->
+            <!--  我只是希望用户点击以后执行一段js代码，不进行页面跳转-->
+            <a href='javascript:void(0)' onclick='del(10)'>删除</a>
+            <a href='edit.html'>修改</a>
+            <a href='detail.html'>详情</a>
+        </td>
+    </tr>
+
+</table>
+<!--以下是固定的-->
+<hr>
+<a href='add.html'>新增部门</a>
+</body>
+</html>

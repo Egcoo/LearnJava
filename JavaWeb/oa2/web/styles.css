@@ -1,0 +1,165 @@
+/*// CSS (styles.css)*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 0.5rem;
+}
+
+.login-container input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.login-container button {
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*// CSS (styles.css)*/
+/*body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*    background-color: #f0f0f0;*/
+/*}*/
+
+/*.login-container {*/
+/*    background-color: white;*/
+/*    padding: 2rem;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.login-container h1 {*/
+/*    text-align: center;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*.login-container form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.login-container label {*/
+/*    margin-bottom: 0.5rem;*/
+/*}*/
+
+/*.login-container input {*/
+/*    margin-bottom: 1rem;*/
+/*    padding: 0.5rem;*/
+/*}*/
+
+/*.login-container button {*/
+/*    padding: 0.5rem;*/
+/*    background-color: #007bff;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.apple-logo {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin-top: 2rem;*/
+/*}*/
+
+/*.apple-logo img {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*}*/
+
+/*// CSS (styles.css)*/
+/** {*/
+/*    box-sizing: border-box;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*body {*/
+/*    background-color: #f5f5f5;*/
+/*    font-family: 'Helvetica Neue', sans-serif;*/
+/*    background-image: linear-gradient(to bottom right, #007aff, #00c6ff);*/
+/*}*/
+
+/*.container {*/
+/*    background-color: #fff;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
+/*    margin: 50px auto;*/
+/*    max-width: 500px;*/
+/*    padding: 30px;*/
+/*}*/
+
+/*h1 {*/
+/*    color: #333;*/
+/*    font-size: 24px;*/
+/*    font-weight: 400;*/
+/*    margin-bottom: 30px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.form-group {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*label {*/
+/*    color: #666;*/
+/*    display: block;*/
+/*    font-size: 14px;*/
+/*    font-weight: 500;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+
+/*input[type="text"],*/
+/*input[type="password"] {*/
+/*    border: none;*/
+/*    border-radius: 3px;*/
+/*    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);*/
+/*    font-size: 16px;*/
+/*    padding: 10px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*input[type="submit"] {*/
+/*    background-color: #007aff;*/
+/*    border: none;*/
+/*    border-radius: 3px;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*    padding: 10px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*input[type="submit"]:hover {*/
+/*    background-color: #0062cc;*/
+/*}*/
